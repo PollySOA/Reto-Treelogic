@@ -128,3 +128,6 @@ server/static_processed/
 !client/public/*.png
 !docs/**/*.png
 !docs/**/*.jpg
+# Security documentation - internal use only
+SECURITY_LOCAL.md
+SECURITY_*.md
