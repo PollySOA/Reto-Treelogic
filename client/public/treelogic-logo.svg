@@ -1,0 +1,16 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized tree icon with geometric design -->
+  <g transform="translate(2, 6)">
+    <!-- Tree structure - modern geometric -->
+    <path d="M 12 4 L 8 12 L 16 12 Z" fill="#FF8C00"/>
+    <path d="M 12 10 L 7 18 L 17 18 Z" fill="#FF8C00"/>
+    <path d="M 12 16 L 6 24 L 18 24 Z" fill="#FF8C00"/>
+    <!-- Trunk -->
+    <rect x="10" y="24" width="4" height="6" fill="#FF8C00" rx="1"/>
+  </g>
+  
+  <!-- "Treelogic" text - Clean sans-serif -->
+  <text x="32" y="27" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#FF8C00" letter-spacing="-0.5">
+    Treelogic
+  </text>
+</svg>

@@ -1,0 +1,17 @@
+# Testing dependencies
+pytest==8.2.2
+pytest-asyncio==0.23.7
+pytest-cov==5.0.0
+httpx==0.27.0  # For FastAPI testing
+
+# Security dependencies
+slowapi==0.1.9  # Rate limiting
+limits==3.10.1  # Rate limiting backend
+
+# Monitoring and Observability
+prometheus-client==0.20.0  # Prometheus metrics
+python-json-logger==2.0.7  # Structured JSON logging
+psutil==5.9.8  # System metrics (CPU, memory, disk)
+
+# Additional utilities
+python-multipart==0.0.9  # File upload handling (if not already present)
