@@ -2,26 +2,6 @@
 
 Medical image de-identification system compliant with AI Act (EU), GDPR, and HIPAA. End-to-end pipeline with OCR-based text detection, PHI classification, and surgical anonymization preserving clinical utility (SSIM ≥0.99, zero healthy tissue modification).
 
----
-
-## Documentation
-
-| Category | Document | Link |
-|----------|----------|------|
-| **Hackathon** | Requirements Compliance (21/21) | [docs/hackathon/CUMPLIMIENTO.md](docs/hackathon/CUMPLIMIENTO.md) |
-| | Presentation Guide (5 min) | [docs/hackathon/PRESENTACION.md](docs/hackathon/PRESENTACION.md) |
-| | Pitch Video (3-5 min) | [docs/hackathon/PITCH_VIDEO.md](docs/hackathon/PITCH_VIDEO.md) |
-| **Technical** | Code Analysis | [docs/technical/ANALISIS_CODIGO.md](docs/technical/ANALISIS_CODIGO.md) |
-| | PHI Detection | [docs/technical/PHI_DETECTOR.md](docs/technical/PHI_DETECTOR.md) |
-| | Inpainting | [docs/technical/INPAINTING.md](docs/technical/INPAINTING.md) |
-| | User Interface | [docs/technical/INTERFAZ_USUARIO.md](docs/technical/INTERFAZ_USUARIO.md) |
-| | Monitoring | [docs/MONITORING_OBSERVABILITY.md](docs/MONITORING_OBSERVABILITY.md) |
-| **Project** | Branding | [docs/project/BRANDING.md](docs/project/BRANDING.md) |
-| | Issues & Solutions | [docs/project/PROBLEMAS_SOLUCIONES.md](docs/project/PROBLEMAS_SOLUCIONES.md) |
-| | Metrics | [docs/project/DATOS_EXTRAIDOS.md](docs/project/DATOS_EXTRAIDOS.md) |
-
----
-
 ## Pipeline Architecture
 
 ```
@@ -146,18 +126,11 @@ pnpm test                           # Frontend tests
 
 **Results:** 115+ automated tests, 80-85% backend coverage, 100% monitoring module coverage
 
----
-
 ## Monitoring Endpoints
 
-- **Health:** http://localhost:8000/health
-- **Metrics:** http://localhost:8000/metrics (Prometheus format)
-- **Logs:** Structured JSON for analysis
-
----
-
-## Status
-
+- Health
+- Metrics 
+- Logs
 **Production-ready for Treelogic Hackathon submission**
 
 - 100% functional (backend + frontend)
@@ -170,6 +143,7 @@ pnpm test                           # Frontend tests
 ---
 
 **Developed for:** Treelogic Computer Vision Challenge  
-**Team:** Luis Arteaga and Pollyanna Soares  
+**Desarrolladora Técnica:**Pollyanna Soares  
+**Owner: Luis Arteaga
 **Date:** June 15, 2026  
 **Version:** 2.1.0
